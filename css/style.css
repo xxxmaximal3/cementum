@@ -301,7 +301,7 @@ body {
   .about .container.grid {
     grid-template-columns: 1fr; }
   .about .copyright {
-    background-position: center top;
+    background-position: center bottom;
     background-size: cover; }
     .about .copyright .copyright-item {
       text-align: center; }
@@ -352,7 +352,7 @@ body {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .about .copyright {
-    background-position: center top;
+    background-position: center bottom;
     background-size: cover; }
     .about .copyright .copyright-item h1 {
       margin: 0 auto;
