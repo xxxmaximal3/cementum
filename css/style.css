@@ -36,6 +36,30 @@ body {
   max-width: 1366px;
   margin: 0 auto; }
 
+  .main-header .container,
+  .about .container {
+    width: 100%;  /* Убедитесь, что ширина контейнера равна 100% */
+    max-width: 1366px;  /* Максимальная ширина может быть установлена, если нужно */
+    margin: 0 auto;  /* Центрирование */
+  }
+
+  .main-header .container.grid {
+    grid-template-columns: 1fr;  /* Колонки сетки */
+    width: 100%;  /* Ширина контейнера */
+  }
+
+  .main-header,
+  .about {
+    padding: 0;  /* Уберите лишние отступы */
+    margin: 0;   /* Убедитесь, что у них нет отступов */
+  }
+
+  .main-header .container,
+.about .container {
+  width: 100%;  /* Растягивает на всю ширину */
+  max-width: 1366px;  /* Ограничивает максимальную ширину */
+  margin: 0 auto;  /* Центрирует */
+}
 .copyright .logo {
   background-position: top;
 }
